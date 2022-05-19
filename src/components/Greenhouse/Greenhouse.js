@@ -4,7 +4,7 @@ import './Greenhouse.css';
 import LightSwitch from './LightSwitch';
 import ClimateStats from './ClimateStats';
 import {useTheme} from '../../context/ThemeContext'
-import {useContext} from 'react'
+
 
 function Greenhouse() {
 const {themeName, setThemeName} = useTheme()
